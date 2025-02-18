@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pametni tefter 2.0\n"
+"POT-Creation-Date: 2025-02-18 07:20+0100\n"
+"PO-Revision-Date: 2025-02-18 07:21+0100\n"
+"Last-Translator: Danijela Popović <dani@danimundo.com>\n"
+"Language-Team: \n"
+"Language: sr@latin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;gettext;ngettext\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: .old_and_test/tefter1.9.2.py:33 .old_and_test/tefter2.0_novo.py:35
+msgid "New contact\tCtrl+N"
+msgstr "Novi kontakt\tCtrl+N"
+
+#: .old_and_test/tefter1.9.2.py:33 .old_and_test/tefter2.0_novo.py:35
+#: Tefter.py:39
+msgid "Add a new contact"
+msgstr "Dodaj novi kontakt"
+
+#: .old_and_test/tefter1.9.2.py:34 .old_and_test/tefter2.0_novo.py:36
+msgid "Edit contact\tCtrl+E"
+msgstr "Izmeni kontakt\tCtrl+E"
+
+#: .old_and_test/tefter1.9.2.py:34 .old_and_test/tefter2.0_novo.py:36
+#: Tefter.py:41
+msgid "Edit contact info"
+msgstr "Izmeni informacije o kontaktu"
+
+#: .old_and_test/tefter1.9.2.py:35 .old_and_test/tefter2.0_novo.py:37
+msgid "Delete contact\tCtrl+D"
+msgstr "Obriši kontakt\tCtrl+D"
+
+#: .old_and_test/tefter1.9.2.py:35 .old_and_test/tefter2.0_novo.py:37
+msgid "Delete a contact from your database"
+msgstr "Obriši kontakt iz baze"
+
+#: .old_and_test/tefter1.9.2.py:36 .old_and_test/tefter2.0_novo.py:38
+msgid "Export contacts\tAlt+E"
+msgstr "Izvezi kontakte\tAlt+I"
+
+#: .old_and_test/tefter1.9.2.py:36 .old_and_test/tefter2.0_novo.py:38
+#: Tefter.py:45
+msgid "Export your contacts to a textual document"
+msgstr "Izvezi kontakte u tekstualni dokument"
+
+#: .old_and_test/tefter1.9.2.py:37 .old_and_test/tefter2.0_novo.py:39
+msgid "Exit"
+msgstr "Izlaz"
+
+#: .old_and_test/tefter1.9.2.py:37 .old_and_test/tefter2.0_novo.py:39
+#: Tefter.py:35
+msgid "Close the program"
+msgstr "Zatvori program"
+
+#: .old_and_test/tefter1.9.2.py:38 .old_and_test/tefter1.9.2.py:45
+#: .old_and_test/tefter2.0_novo.py:40 .old_and_test/tefter2.0_novo.py:47
+#: Tefter.py:66 Tefter.py:150 Tefter.py:702
+msgid "Contacts"
+msgstr "Kontakti"
+
+#: .old_and_test/tefter1.9.2.py:40 .old_and_test/tefter2.0_novo.py:42
+msgid "New appointment\tCtrl+Shift+N"
+msgstr "Nova beleška\tCtrl+Shift+N"
+
+#: .old_and_test/tefter1.9.2.py:40 .old_and_test/tefter2.0_novo.py:42
+msgid "Add an appointment for the selected contact"
+msgstr "Dodaj belešku za odabrani kontakt"
+
+#: .old_and_test/tefter1.9.2.py:41 .old_and_test/tefter2.0_novo.py:43
+msgid "Export appointments\tAlt+Shift+E"
+msgstr "Izvezi beleške\tAlt+Shift+I"
+
+#: .old_and_test/tefter1.9.2.py:41 .old_and_test/tefter2.0_novo.py:43
+#: Tefter.py:57
+msgid "Export your appointments to a textual document"
+msgstr "Izvezi beleške u tekstualni dokument"
+
+#: .old_and_test/tefter1.9.2.py:42 .old_and_test/tefter1.9.2.py:243
+#: .old_and_test/tefter2.0_novo.py:44 .old_and_test/tefter2.0_novo.py:260
+#: Tefter.py:89 Tefter.py:153 Tefter.py:704
+msgid "Appointments"
+msgstr "Beleške"
+
+#: .old_and_test/tefter1.9.2.py:43 .old_and_test/tefter2.0_novo.py:45
+#: Tefter.py:67
+msgid "Search contacts"
+msgstr "Pretraži kontakte"
+
+#: .old_and_test/tefter1.9.2.py:88 .old_and_test/tefter1.9.2.py:787
+#: .old_and_test/tefter2.0_novo.py:94 .old_and_test/tefter2.0_novo.py:828
+#: Tefter.py:177 Tefter.py:710
+msgid "New contact"
+msgstr "Novi kontakt"
+
+#: .old_and_test/tefter1.9.2.py:96 .old_and_test/tefter1.9.2.py:862
+#: .old_and_test/tefter2.0_novo.py:103 .old_and_test/tefter2.0_novo.py:909
+#: Tefter.py:186 Tefter.py:792
+msgid "Edit contact"
+msgstr "Izmeni kontakt"
+
+#: .old_and_test/tefter1.9.2.py:99 .old_and_test/tefter1.9.2.py:120
+#: .old_and_test/tefter1.9.2.py:312 .old_and_test/tefter1.9.2.py:338
+#: .old_and_test/tefter1.9.2.py:366 .old_and_test/tefter1.9.2.py:397
+#: .old_and_test/tefter1.9.2.py:431 .old_and_test/tefter2.0_novo.py:107
+#: .old_and_test/tefter2.0_novo.py:129 .old_and_test/tefter2.0_novo.py:331
+#: .old_and_test/tefter2.0_novo.py:358 .old_and_test/tefter2.0_novo.py:387
+#: .old_and_test/tefter2.0_novo.py:419 .old_and_test/tefter2.0_novo.py:454
+#: Tefter.py:196 Tefter.py:320
+msgid "#"
+msgstr "#"
+
+#: .old_and_test/tefter1.9.2.py:100 .old_and_test/tefter1.9.2.py:121
+#: .old_and_test/tefter1.9.2.py:789 .old_and_test/tefter2.0_novo.py:108
+#: .old_and_test/tefter2.0_novo.py:130 .old_and_test/tefter2.0_novo.py:830
+#: Tefter.py:197 Tefter.py:713
+msgid "Name"
+msgstr "Ime"
+
+#: .old_and_test/tefter1.9.2.py:101 .old_and_test/tefter1.9.2.py:122
+#: .old_and_test/tefter1.9.2.py:152 .old_and_test/tefter1.9.2.py:156
+#: .old_and_test/tefter1.9.2.py:162 .old_and_test/tefter1.9.2.py:168
+#: .old_and_test/tefter1.9.2.py:763 .old_and_test/tefter1.9.2.py:796
+#: .old_and_test/tefter2.0_novo.py:109 .old_and_test/tefter2.0_novo.py:131
+#: .old_and_test/tefter2.0_novo.py:163 .old_and_test/tefter2.0_novo.py:167
+#: .old_and_test/tefter2.0_novo.py:173 .old_and_test/tefter2.0_novo.py:179
+#: .old_and_test/tefter2.0_novo.py:802 .old_and_test/tefter2.0_novo.py:837
+#: Tefter.py:198 Tefter.py:240 Tefter.py:244 Tefter.py:250 Tefter.py:256
+#: Tefter.py:677 Tefter.py:720
+msgid "Phone"
+msgstr "Broj"
+
+#: .old_and_test/tefter1.9.2.py:102 .old_and_test/tefter1.9.2.py:123
+#: .old_and_test/tefter1.9.2.py:152 .old_and_test/tefter1.9.2.py:156
+#: .old_and_test/tefter1.9.2.py:162 .old_and_test/tefter1.9.2.py:168
+#: .old_and_test/tefter1.9.2.py:763 .old_and_test/tefter1.9.2.py:803
+#: .old_and_test/tefter2.0_novo.py:110 .old_and_test/tefter2.0_novo.py:132
+#: .old_and_test/tefter2.0_novo.py:163 .old_and_test/tefter2.0_novo.py:167
+#: .old_and_test/tefter2.0_novo.py:173 .old_and_test/tefter2.0_novo.py:179
+#: .old_and_test/tefter2.0_novo.py:802 .old_and_test/tefter2.0_novo.py:844
+#: Tefter.py:199 Tefter.py:240 Tefter.py:244 Tefter.py:250 Tefter.py:256
+#: Tefter.py:677 Tefter.py:727
+msgid "Email"
+msgstr "Email"
+
+#: .old_and_test/tefter1.9.2.py:103 .old_and_test/tefter1.9.2.py:124
+#: .old_and_test/tefter1.9.2.py:152 .old_and_test/tefter1.9.2.py:156
+#: .old_and_test/tefter1.9.2.py:162 .old_and_test/tefter1.9.2.py:168
+#: .old_and_test/tefter1.9.2.py:763 .old_and_test/tefter1.9.2.py:810
+#: .old_and_test/tefter2.0_novo.py:111 .old_and_test/tefter2.0_novo.py:133
+#: .old_and_test/tefter2.0_novo.py:163 .old_and_test/tefter2.0_novo.py:167
+#: .old_and_test/tefter2.0_novo.py:173 .old_and_test/tefter2.0_novo.py:179
+#: .old_and_test/tefter2.0_novo.py:802 .old_and_test/tefter2.0_novo.py:851
+#: Tefter.py:200 Tefter.py:240 Tefter.py:244 Tefter.py:250 Tefter.py:256
+#: Tefter.py:677 Tefter.py:734
+msgid "Comments"
+msgstr "Komentari"
+
+#: .old_and_test/tefter1.9.2.py:117 .old_and_test/tefter2.0_novo.py:125
+msgid ""
+"There was an error connecting to the database. Please try again or contact "
+"the app developer for help."
+msgstr ""
+"Došlo je do greške pri povezivanju sa bazom podataka. Molimo pokušajte "
+"ponovo ili kontaktirajte autora za pomoć."
+
+#: .old_and_test/tefter1.9.2.py:117 .old_and_test/tefter2.0_novo.py:125
+msgid "Error"
+msgstr "Greška"
+
+#: .old_and_test/tefter1.9.2.py:163 .old_and_test/tefter2.0_novo.py:174
+#: Tefter.py:251
+msgid "Are you sure you want to delete these contacts?"
+msgstr "Da li sigurno želiš da ukloniš ove kontakte?"
+
+#: .old_and_test/tefter1.9.2.py:168 .old_and_test/tefter2.0_novo.py:179
+#: Tefter.py:256
+msgid "Are you sure you want to delete this contact?"
+msgstr "Da li sigurno želiš da ukloniš ovaj kontakt?"
+
+#: .old_and_test/tefter1.9.2.py:233 .old_and_test/tefter2.0_novo.py:250
+msgid "New appointment\tCtrl+N"
+msgstr "Nova beleška\tCtrl+N"
+
+#: .old_and_test/tefter1.9.2.py:233 .old_and_test/tefter2.0_novo.py:250
+#: Tefter.py:51
+msgid "Add a new appointment"
+msgstr "Dodaj novu belešku"
+
+#: .old_and_test/tefter1.9.2.py:235 .old_and_test/tefter2.0_novo.py:252
+msgid "Edit appointment\tCtrl+E"
+msgstr "Izmeni belešku\tCtrl+E"
+
+#: .old_and_test/tefter1.9.2.py:235 .old_and_test/tefter2.0_novo.py:252
+#: Tefter.py:53
+msgid "Edit the selected appointment"
+msgstr "Uredi odabranu belešku"
+
+#: .old_and_test/tefter1.9.2.py:237 .old_and_test/tefter2.0_novo.py:254
+msgid "Delete appointment\tCtrl+D"
+msgstr "Obriši belešku\tCtrl+D"
+
+#: .old_and_test/tefter1.9.2.py:237 .old_and_test/tefter2.0_novo.py:254
+#: Tefter.py:55
+msgid "Delete the selected appointment"
+msgstr "Obriši odabranu belešku"
+
+#: .old_and_test/tefter1.9.2.py:239 .old_and_test/tefter2.0_novo.py:256
+msgid "Exit\tAlt+F4"
+msgstr "Izlaz\tAlt+F4"
+
+#: .old_and_test/tefter1.9.2.py:239 .old_and_test/tefter2.0_novo.py:256
+msgid "Close the app"
+msgstr "Zatvori program"
+
+#: .old_and_test/tefter1.9.2.py:241 .old_and_test/tefter2.0_novo.py:258
+msgid "Options"
+msgstr "Opcije"
+
+#: .old_and_test/tefter1.9.2.py:244 .old_and_test/tefter2.0_novo.py:261
+#: Tefter.py:90
+msgid "Search appointments"
+msgstr "Pretraži beleške"
+
+#: .old_and_test/tefter1.9.2.py:247 .old_and_test/tefter2.0_novo.py:264
+#: Tefter.py:94
+msgid "List of appointments"
+msgstr "Lista beleški"
+
+#: .old_and_test/tefter1.9.2.py:252 .old_and_test/tefter1.9.2.py:314
+#: .old_and_test/tefter1.9.2.py:340 .old_and_test/tefter1.9.2.py:368
+#: .old_and_test/tefter1.9.2.py:399 .old_and_test/tefter1.9.2.py:433
+#: .old_and_test/tefter1.9.2.py:496 .old_and_test/tefter2.0_novo.py:269
+#: .old_and_test/tefter2.0_novo.py:333 .old_and_test/tefter2.0_novo.py:360
+#: .old_and_test/tefter2.0_novo.py:389 .old_and_test/tefter2.0_novo.py:421
+#: .old_and_test/tefter2.0_novo.py:456 .old_and_test/tefter2.0_novo.py:523
+#: Tefter.py:102 Tefter.py:322 Tefter.py:408
+msgid "Year"
+msgstr "Godina"
+
+#: .old_and_test/tefter1.9.2.py:259 .old_and_test/tefter2.0_novo.py:276
+#: Tefter.py:110
+msgid "Search by year"
+msgstr "Pretraži po godini"
+
+#: .old_and_test/tefter1.9.2.py:261 .old_and_test/tefter1.9.2.py:315
+#: .old_and_test/tefter1.9.2.py:341 .old_and_test/tefter1.9.2.py:369
+#: .old_and_test/tefter1.9.2.py:400 .old_and_test/tefter1.9.2.py:434
+#: .old_and_test/tefter1.9.2.py:494 .old_and_test/tefter2.0_novo.py:278
+#: .old_and_test/tefter2.0_novo.py:334 .old_and_test/tefter2.0_novo.py:361
+#: .old_and_test/tefter2.0_novo.py:390 .old_and_test/tefter2.0_novo.py:422
+#: .old_and_test/tefter2.0_novo.py:457 .old_and_test/tefter2.0_novo.py:521
+#: Tefter.py:113 Tefter.py:323 Tefter.py:405
+msgid "Month"
+msgstr "Mesec"
+
+#: .old_and_test/tefter1.9.2.py:268 .old_and_test/tefter2.0_novo.py:285
+#: Tefter.py:121
+msgid "Search by month"
+msgstr "Pretraži po mesecu"
+
+#: .old_and_test/tefter1.9.2.py:270 .old_and_test/tefter1.9.2.py:316
+#: .old_and_test/tefter1.9.2.py:342 .old_and_test/tefter1.9.2.py:370
+#: .old_and_test/tefter1.9.2.py:401 .old_and_test/tefter1.9.2.py:435
+#: .old_and_test/tefter1.9.2.py:478 .old_and_test/tefter1.9.2.py:492
+#: .old_and_test/tefter2.0_novo.py:287 .old_and_test/tefter2.0_novo.py:335
+#: .old_and_test/tefter2.0_novo.py:362 .old_and_test/tefter2.0_novo.py:391
+#: .old_and_test/tefter2.0_novo.py:423 .old_and_test/tefter2.0_novo.py:458
+#: .old_and_test/tefter2.0_novo.py:504 .old_and_test/tefter2.0_novo.py:519
+#: Tefter.py:124 Tefter.py:324 Tefter.py:402
+msgid "Day"
+msgstr "Dan"
+
+#: .old_and_test/tefter1.9.2.py:273 .old_and_test/tefter1.9.2.py:480
+#: .old_and_test/tefter2.0_novo.py:290 .old_and_test/tefter2.0_novo.py:506
+#: Tefter.py:128
+msgid "Search by date"
+msgstr "Pretraži po datumu"
+
+#: .old_and_test/tefter1.9.2.py:313 .old_and_test/tefter1.9.2.py:339
+#: .old_and_test/tefter1.9.2.py:367 .old_and_test/tefter1.9.2.py:398
+#: .old_and_test/tefter1.9.2.py:432 .old_and_test/tefter1.9.2.py:489
+#: .old_and_test/tefter1.9.2.py:712 .old_and_test/tefter1.9.2.py:776
+#: .old_and_test/tefter2.0_novo.py:332 .old_and_test/tefter2.0_novo.py:359
+#: .old_and_test/tefter2.0_novo.py:388 .old_and_test/tefter2.0_novo.py:420
+#: .old_and_test/tefter2.0_novo.py:455 .old_and_test/tefter2.0_novo.py:516
+#: .old_and_test/tefter2.0_novo.py:747 .old_and_test/tefter2.0_novo.py:816
+#: Tefter.py:321 Tefter.py:398 Tefter.py:623 Tefter.py:691
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .old_and_test/tefter1.9.2.py:317 .old_and_test/tefter1.9.2.py:343
+#: .old_and_test/tefter1.9.2.py:371 .old_and_test/tefter1.9.2.py:402
+#: .old_and_test/tefter1.9.2.py:436 .old_and_test/tefter1.9.2.py:776
+#: .old_and_test/tefter1.9.2.py:778 .old_and_test/tefter2.0_novo.py:336
+#: .old_and_test/tefter2.0_novo.py:363 .old_and_test/tefter2.0_novo.py:392
+#: .old_and_test/tefter2.0_novo.py:424 .old_and_test/tefter2.0_novo.py:459
+#: .old_and_test/tefter2.0_novo.py:816 .old_and_test/tefter2.0_novo.py:818
+#: Tefter.py:325 Tefter.py:691 Tefter.py:693
+msgid "Time"
+msgstr "Vreme"
+
+#: .old_and_test/tefter1.9.2.py:318 .old_and_test/tefter1.9.2.py:344
+#: .old_and_test/tefter1.9.2.py:372 .old_and_test/tefter1.9.2.py:403
+#: .old_and_test/tefter1.9.2.py:437 .old_and_test/tefter1.9.2.py:502
+#: .old_and_test/tefter1.9.2.py:697 .old_and_test/tefter1.9.2.py:701
+#: .old_and_test/tefter1.9.2.py:707 .old_and_test/tefter1.9.2.py:712
+#: .old_and_test/tefter1.9.2.py:776 .old_and_test/tefter1.9.2.py:778
+#: .old_and_test/tefter2.0_novo.py:337 .old_and_test/tefter2.0_novo.py:364
+#: .old_and_test/tefter2.0_novo.py:393 .old_and_test/tefter2.0_novo.py:425
+#: .old_and_test/tefter2.0_novo.py:460 .old_and_test/tefter2.0_novo.py:529
+#: .old_and_test/tefter2.0_novo.py:732 .old_and_test/tefter2.0_novo.py:736
+#: .old_and_test/tefter2.0_novo.py:742 .old_and_test/tefter2.0_novo.py:747
+#: .old_and_test/tefter2.0_novo.py:816 .old_and_test/tefter2.0_novo.py:818
+#: Tefter.py:326 Tefter.py:417 Tefter.py:608 Tefter.py:612 Tefter.py:618
+#: Tefter.py:623 Tefter.py:691 Tefter.py:693
+msgid "Title"
+msgstr "Naziv"
+
+#: .old_and_test/tefter1.9.2.py:319 .old_and_test/tefter1.9.2.py:345
+#: .old_and_test/tefter1.9.2.py:373 .old_and_test/tefter1.9.2.py:404
+#: .old_and_test/tefter1.9.2.py:438 .old_and_test/tefter1.9.2.py:697
+#: .old_and_test/tefter1.9.2.py:701 .old_and_test/tefter1.9.2.py:707
+#: .old_and_test/tefter1.9.2.py:712 .old_and_test/tefter1.9.2.py:776
+#: .old_and_test/tefter1.9.2.py:778 .old_and_test/tefter2.0_novo.py:338
+#: .old_and_test/tefter2.0_novo.py:365 .old_and_test/tefter2.0_novo.py:394
+#: .old_and_test/tefter2.0_novo.py:426 .old_and_test/tefter2.0_novo.py:461
+#: .old_and_test/tefter2.0_novo.py:732 .old_and_test/tefter2.0_novo.py:736
+#: .old_and_test/tefter2.0_novo.py:742 .old_and_test/tefter2.0_novo.py:747
+#: .old_and_test/tefter2.0_novo.py:816 .old_and_test/tefter2.0_novo.py:818
+#: Tefter.py:327 Tefter.py:608 Tefter.py:612 Tefter.py:618 Tefter.py:623
+#: Tefter.py:691 Tefter.py:693
+msgid "Details"
+msgstr "Detalji"
+
+#: .old_and_test/tefter1.9.2.py:320 .old_and_test/tefter1.9.2.py:346
+#: .old_and_test/tefter1.9.2.py:374 .old_and_test/tefter1.9.2.py:405
+#: .old_and_test/tefter1.9.2.py:439 .old_and_test/tefter1.9.2.py:776
+#: .old_and_test/tefter1.9.2.py:778 .old_and_test/tefter2.0_novo.py:339
+#: .old_and_test/tefter2.0_novo.py:366 .old_and_test/tefter2.0_novo.py:395
+#: .old_and_test/tefter2.0_novo.py:427 .old_and_test/tefter2.0_novo.py:462
+#: .old_and_test/tefter2.0_novo.py:816 .old_and_test/tefter2.0_novo.py:818
+#: Tefter.py:328 Tefter.py:691 Tefter.py:693
+msgid "Importance"
+msgstr "Hitnost"
+
+#: .old_and_test/tefter1.9.2.py:378 .old_and_test/tefter2.0_novo.py:399
+#: Tefter.py:193
+msgid "There are no appointments for this year."
+msgstr "Nema beleški za ovu godinu."
+
+#: .old_and_test/tefter1.9.2.py:378 .old_and_test/tefter1.9.2.py:409
+#: .old_and_test/tefter1.9.2.py:444 .old_and_test/tefter2.0_novo.py:399
+#: .old_and_test/tefter2.0_novo.py:431 .old_and_test/tefter2.0_novo.py:467
+#: Tefter.py:193
+msgid "Oops"
+msgstr "Ups"
+
+#: .old_and_test/tefter1.9.2.py:409 .old_and_test/tefter2.0_novo.py:431
+msgid "There are no appointments for this month."
+msgstr "Nema beleški za ovaj mesec."
+
+#: .old_and_test/tefter1.9.2.py:444 .old_and_test/tefter2.0_novo.py:467
+msgid "There are no appointments for this date."
+msgstr "Nema beleški za ovaj datum."
+
+#: .old_and_test/tefter1.9.2.py:487 .old_and_test/tefter1.9.2.py:488
+#: .old_and_test/tefter2.0_novo.py:514 .old_and_test/tefter2.0_novo.py:515
+#: Tefter.py:396 Tefter.py:397
+msgid "New appointment"
+msgstr "Nova beleška"
+
+#: .old_and_test/tefter1.9.2.py:498 .old_and_test/tefter2.0_novo.py:525
+#: Tefter.py:411
+msgid "Hour"
+msgstr "Sati"
+
+#: .old_and_test/tefter1.9.2.py:500 .old_and_test/tefter2.0_novo.py:527
+#: Tefter.py:414
+msgid "Minutes"
+msgstr "Minuti"
+
+#: .old_and_test/tefter1.9.2.py:504 .old_and_test/tefter2.0_novo.py:531
+#: Tefter.py:420
+msgid "Appointment"
+msgstr "Beleška"
+
+#: .old_and_test/tefter1.9.2.py:509 .old_and_test/tefter2.0_novo.py:536
+#: Tefter.py:425
+msgid "How important is this appointment?"
+msgstr "Koliko je ova beleška važna?"
+
+#: .old_and_test/tefter1.9.2.py:512 .old_and_test/tefter1.9.2.py:816
+#: .old_and_test/tefter2.0_novo.py:539 .old_and_test/tefter2.0_novo.py:857
+#: Tefter.py:428 Tefter.py:740
+msgid "Add"
+msgstr "Dodaj"
+
+#: .old_and_test/tefter1.9.2.py:513 .old_and_test/tefter1.9.2.py:616
+#: .old_and_test/tefter1.9.2.py:821 .old_and_test/tefter1.9.2.py:903
+#: .old_and_test/tefter2.0_novo.py:540 .old_and_test/tefter2.0_novo.py:646
+#: .old_and_test/tefter2.0_novo.py:862 .old_and_test/tefter2.0_novo.py:950
+#: Tefter.py:431 Tefter.py:523 Tefter.py:745 Tefter.py:833
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: .old_and_test/tefter1.9.2.py:576 .old_and_test/tefter1.9.2.py:590
+#: .old_and_test/tefter2.0_novo.py:606 .old_and_test/tefter2.0_novo.py:620
+#: Tefter.py:483 Tefter.py:497
+msgid "Edit appointment"
+msgstr "Izmeni belešku"
+
+#: .old_and_test/tefter1.9.2.py:578 .old_and_test/tefter2.0_novo.py:608
+#: Tefter.py:485
+msgid "Edit day"
+msgstr "Izmeni dan"
+
+#: .old_and_test/tefter1.9.2.py:580 .old_and_test/tefter2.0_novo.py:610
+#: Tefter.py:487
+msgid "Edit month"
+msgstr "Izmeni mesec"
+
+#: .old_and_test/tefter1.9.2.py:582 .old_and_test/tefter2.0_novo.py:612
+#: Tefter.py:489
+msgid "Edit year"
+msgstr "Izmeni godinu"
+
+#: .old_and_test/tefter1.9.2.py:584 .old_and_test/tefter2.0_novo.py:614
+#: Tefter.py:491
+msgid "Edit hour"
+msgstr "Izmeni sate"
+
+#: .old_and_test/tefter1.9.2.py:586 .old_and_test/tefter2.0_novo.py:616
+#: Tefter.py:493
+msgid "Edit minutes"
+msgstr "Izmeni minute"
+
+#: .old_and_test/tefter1.9.2.py:588 .old_and_test/tefter2.0_novo.py:618
+#: Tefter.py:495
+msgid "Edit title"
+msgstr "Izmeni naziv"
+
+#: .old_and_test/tefter1.9.2.py:595 .old_and_test/tefter2.0_novo.py:625
+#: Tefter.py:502
+msgid "Edit importance"
+msgstr "Izmeni hitnost"
+
+#: .old_and_test/tefter1.9.2.py:614 .old_and_test/tefter1.9.2.py:898
+#: .old_and_test/tefter2.0_novo.py:644 .old_and_test/tefter2.0_novo.py:945
+#: Tefter.py:521 Tefter.py:828
+msgid "Save changes"
+msgstr "Sačuvaj promene"
+
+#: .old_and_test/tefter1.9.2.py:697 .old_and_test/tefter1.9.2.py:701
+#: .old_and_test/tefter1.9.2.py:707 .old_and_test/tefter1.9.2.py:712
+#: .old_and_test/tefter2.0_novo.py:732 .old_and_test/tefter2.0_novo.py:736
+#: .old_and_test/tefter2.0_novo.py:742 .old_and_test/tefter2.0_novo.py:747
+#: Tefter.py:608 Tefter.py:612 Tefter.py:618 Tefter.py:623
+msgid "Date"
+msgstr "Datum"
+
+#: .old_and_test/tefter1.9.2.py:708 .old_and_test/tefter2.0_novo.py:743
+#: Tefter.py:619
+msgid "Are you sure you want to delete these appointments?"
+msgstr "Da li sigurno želiš da ukloniš ove beleške?"
+
+#: .old_and_test/tefter1.9.2.py:712 .old_and_test/tefter2.0_novo.py:747
+#: Tefter.py:623
+msgid "Are you sure you want to delete this appointment?"
+msgstr "Da li sigurno želiš da ukloniš ovu belešku?"
+
+#: .old_and_test/tefter1.9.2.py:766 .old_and_test/tefter2.0_novo.py:805
+#: Tefter.py:680
+msgid "Exported contacts"
+msgstr "Izvezeni kontakti"
+
+#: .old_and_test/tefter1.9.2.py:781 .old_and_test/tefter2.0_novo.py:821
+#: Tefter.py:696
+msgid "Exported appointments"
+msgstr "Izvezeni podsetnici"
+
+#: .old_and_test/tefter1.9.2.py:870 .old_and_test/tefter2.0_novo.py:917
+msgid "New name"
+msgstr "Novo ime"
+
+#: .old_and_test/tefter1.9.2.py:877 .old_and_test/tefter2.0_novo.py:924
+#: Tefter.py:807
+msgid "New phone"
+msgstr "Novi broj"
+
+#: .old_and_test/tefter1.9.2.py:884 .old_and_test/tefter2.0_novo.py:931
+#: Tefter.py:814
+msgid "New email"
+msgstr "Novi email"
+
+#: .old_and_test/tefter1.9.2.py:891 .old_and_test/tefter2.0_novo.py:938
+#: Tefter.py:821
+msgid "New comments"
+msgstr "Novi komentari"
+
+#: .old_and_test/tefter1.9.2.py:963 .old_and_test/tefter2.0_novo.py:1018
+#: Tefter.py:900
+msgid "Smart notebook"
+msgstr "Pametni tefter"
+
+#: Tefter.py:35
+msgid "E&xit\tAlt+F4"
+msgstr "I&zlaz\tAlt+F4"
+
+#: Tefter.py:37
+msgid "&File"
+msgstr "&Opcije"
+
+#: Tefter.py:39
+msgid "&New contact\tCtrl+N"
+msgstr "&Novi kontakt\tCtrl+N"
+
+#: Tefter.py:41
+msgid "&Edit contact\tCtrl+E"
+msgstr "Izm&eni kontakt\tCtrl+E"
+
+#: Tefter.py:43
+msgid "&Delete contact\tCtrl+Delete"
+msgstr "&Ukloni kontakt\tCtrl+Delete"
+
+#: Tefter.py:43
+msgid "Delete one or more contacts from your database"
+msgstr "Ukloni jedan ili više kontakata iz baze"
+
+#: Tefter.py:45
+msgid "Exp&ort contacts\tAlt+E"
+msgstr "Iz&vezi kontakte\tAlt+I"
+
+#: Tefter.py:47
+msgid "Re&fresh contacts\tCtrl+F5"
+msgstr "&Osveži kontakte\tCtrl+F5"
+
+#: Tefter.py:47
+msgid "Display all contacts in the list"
+msgstr "Prikaži sve kontakte"
+
+#: Tefter.py:49
+msgid "&Contacts"
+msgstr "&Kontakti"
+
+#: Tefter.py:51
+msgid "&New appointment\tCtrl+Shift+N"
+msgstr "&Nova beleška\tCtrl+Shift+Shift+N"
+
+#: Tefter.py:53
+msgid "&Edit appointment\tCtrl+Shift+E"
+msgstr "Izm&eni belešku\tCtrl+Shift+E"
+
+#: Tefter.py:55
+msgid "&Delete appointment\tCtrl+Shift+Delete"
+msgstr "&Ukloni belešku\tCtrl+Shift+Delete"
+
+#: Tefter.py:57
+msgid "Exp&ort appointments\tAlt+Shift+E"
+msgstr "&Izvezi beleške\tAlt+Shift+I"
+
+#: Tefter.py:59
+msgid "Re&fresh appointments\tCtrl+Shift+F5"
+msgstr "&Osveži beleške\tCtrl+Shift+F5"
+
+#: Tefter.py:59
+msgid "Display all appointments in the list"
+msgstr "Prikaži sve beleške"
+
+#: Tefter.py:61
+msgid "&Appointments"
+msgstr "&Beleške"
+
+#: Tefter.py:71
+msgid "List of contacts"
+msgstr "Lista kontakata"
+
+#: Tefter.py:76
+msgid "Details about the selected contacts"
+msgstr "Detalji o odabranim kontaktima"
+
+#: Tefter.py:99
+msgid "Details about the selected appointments"
+msgstr "Detalji o odabranim beleškama"
+
+#: Tefter.py:800
+msgid "New title"
+msgstr "Novi naziv"
+
+#: db_utils.py:34
+msgid "nobody"
+msgstr "niko"
+
+#: db_utils.py:34
+msgid "Default \"nobody\" contact"
+msgstr "Podrazumevani prazni (\"niko\") kontakt"
+
+#~ msgid "email"
+#~ msgstr "Mejl"

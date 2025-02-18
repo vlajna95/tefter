@@ -1,0 +1,71 @@
+name: Build and publish a release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade pyinstaller -r requirements.txt
+
+      - name: Read version number
+        id: get_version
+        shell: pwsh
+        run: echo "VERSION=$(Get-Content version.txt)" >> $env:GITHUB_ENV
+
+      - name: Generate Version Metadata
+        run: |
+          python .github/scripts/generate_version_info.py
+
+      - name: Build executable
+        run: |
+          pyinstaller --onefile --windowed --name Tefter --icon=icon.png --add-data "locale;locale" --add-data "sounds;sounds" --version-file version_info.txt --noconsole Tefter.py
+
+      - name: Copy additional files to dist
+        run: |
+          copy icon.png dist\
+          xcopy /E /I locale dist\locale
+          xcopy /E /I sounds dist\sounds
+
+      - name: Create ZIP archive
+        run: |
+          rename dist Tefter
+          powershell Compress-Archive -Path Tefter\* -DestinationPath Tefter\Tefter_v${{ env.VERSION }}.zip
+
+      - name: Upload ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tefter_v${{ env.VERSION }}.zip
+          path: Tefter\Tefter_v${{ env.VERSION }}.zip
+
+      - name: Read release body text
+        id: get_release_body
+        shell: pwsh
+        run: echo "RELEASE_BODY=$(Get-Content release_news.txt)" >> $env:GITHUB_ENV
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.VERSION }}
+          name: Tefter v${{ env.VERSION }}
+          body: ${{ env.RELEASE_BODY }}
+          draft: false
+          prerelease: true
+          files: Tefter/Tefter_v${{ env.VERSION }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_DEPLOYMENT_TOKEN }}

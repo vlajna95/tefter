@@ -1,0 +1,1 @@
+This is the **first public release** of the app. It was – and in fact still is – a personal project to handle some everyday tasks the way I wish. :) 

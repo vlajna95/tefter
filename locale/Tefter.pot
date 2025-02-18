@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Danijela Popovic <eternal.romania@gmail.com>
+# This file is distributed under the same license as the Pametni tefter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pametni tefter 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-18 07:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: db_utils.py:34
+msgid "nobody"
+msgstr ""
+
+#: db_utils.py:34
+msgid "Default \"nobody\" contact"
+msgstr ""
+
+#: Tefter.py:35
+msgid "E&xit\tAlt+F4"
+msgstr ""
+
+#: Tefter.py:35
+msgid "Close the program"
+msgstr ""
+
+#: Tefter.py:37
+msgid "&File"
+msgstr ""
+
+#: Tefter.py:39
+msgid "&New contact\tCtrl+N"
+msgstr ""
+
+#: Tefter.py:39
+msgid "Add a new contact"
+msgstr ""
+
+#: Tefter.py:41
+msgid "&Edit contact\tCtrl+E"
+msgstr ""
+
+#: Tefter.py:41
+msgid "Edit contact info"
+msgstr ""
+
+#: Tefter.py:43
+msgid "&Delete contact\tCtrl+Delete"
+msgstr ""
+
+#: Tefter.py:43
+msgid "Delete one or more contacts from your database"
+msgstr ""
+
+#: Tefter.py:45
+msgid "Exp&ort contacts\tAlt+E"
+msgstr ""
+
+#: Tefter.py:45
+msgid "Export your contacts to a textual document"
+msgstr ""
+
+#: Tefter.py:47
+msgid "Re&fresh contacts\tCtrl+F5"
+msgstr ""
+
+#: Tefter.py:47
+msgid "Display all contacts in the list"
+msgstr ""
+
+#: Tefter.py:49
+msgid "&Contacts"
+msgstr ""
+
+#: Tefter.py:51
+msgid "&New appointment\tCtrl+Shift+N"
+msgstr ""
+
+#: Tefter.py:51
+msgid "Add a new appointment"
+msgstr ""
+
+#: Tefter.py:53
+msgid "&Edit appointment\tCtrl+Shift+E"
+msgstr ""
+
+#: Tefter.py:53
+msgid "Edit the selected appointment"
+msgstr ""
+
+#: Tefter.py:55
+msgid "&Delete appointment\tCtrl+Shift+Delete"
+msgstr ""
+
+#: Tefter.py:55
+msgid "Delete the selected appointment"
+msgstr ""
+
+#: Tefter.py:57
+msgid "Exp&ort appointments\tAlt+Shift+E"
+msgstr ""
+
+#: Tefter.py:57
+msgid "Export your appointments to a textual document"
+msgstr ""
+
+#: Tefter.py:59
+msgid "Re&fresh appointments\tCtrl+Shift+F5"
+msgstr ""
+
+#: Tefter.py:59
+msgid "Display all appointments in the list"
+msgstr ""
+
+#: Tefter.py:61
+msgid "&Appointments"
+msgstr ""
+
+#: Tefter.py:66 Tefter.py:150 Tefter.py:702
+msgid "Contacts"
+msgstr ""
+
+#: Tefter.py:67
+msgid "Search contacts"
+msgstr ""
+
+#: Tefter.py:71
+msgid "List of contacts"
+msgstr ""
+
+#: Tefter.py:76
+msgid "Details about the selected contacts"
+msgstr ""
+
+#: Tefter.py:89 Tefter.py:153 Tefter.py:704
+msgid "Appointments"
+msgstr ""
+
+#: Tefter.py:90
+msgid "Search appointments"
+msgstr ""
+
+#: Tefter.py:94
+msgid "List of appointments"
+msgstr ""
+
+#: Tefter.py:99
+msgid "Details about the selected appointments"
+msgstr ""
+
+#: Tefter.py:102 Tefter.py:322 Tefter.py:408
+msgid "Year"
+msgstr ""
+
+#: Tefter.py:110
+msgid "Search by year"
+msgstr ""
+
+#: Tefter.py:113 Tefter.py:323 Tefter.py:405
+msgid "Month"
+msgstr ""
+
+#: Tefter.py:121
+msgid "Search by month"
+msgstr ""
+
+#: Tefter.py:124 Tefter.py:324 Tefter.py:402
+msgid "Day"
+msgstr ""
+
+#: Tefter.py:128
+msgid "Search by date"
+msgstr ""
+
+#: Tefter.py:177 Tefter.py:710
+msgid "New contact"
+msgstr ""
+
+#: Tefter.py:186 Tefter.py:792
+msgid "Edit contact"
+msgstr ""
+
+#: Tefter.py:193
+msgid "There are no appointments for this year."
+msgstr ""
+
+#: Tefter.py:193
+msgid "Oops"
+msgstr ""
+
+#: Tefter.py:196 Tefter.py:320
+msgid "#"
+msgstr ""
+
+#: Tefter.py:197 Tefter.py:713
+msgid "Name"
+msgstr ""
+
+#: Tefter.py:198 Tefter.py:240 Tefter.py:244 Tefter.py:250 Tefter.py:256
+#: Tefter.py:677 Tefter.py:720
+msgid "Phone"
+msgstr ""
+
+#: Tefter.py:199 Tefter.py:240 Tefter.py:244 Tefter.py:250 Tefter.py:256
+#: Tefter.py:677 Tefter.py:727
+msgid "Email"
+msgstr ""
+
+#: Tefter.py:200 Tefter.py:240 Tefter.py:244 Tefter.py:250 Tefter.py:256
+#: Tefter.py:677 Tefter.py:734
+msgid "Comments"
+msgstr ""
+
+#: Tefter.py:251
+msgid "Are you sure you want to delete these contacts?"
+msgstr ""
+
+#: Tefter.py:256
+msgid "Are you sure you want to delete this contact?"
+msgstr ""
+
+#: Tefter.py:321 Tefter.py:398 Tefter.py:623 Tefter.py:691
+msgid "Contact"
+msgstr ""
+
+#: Tefter.py:325 Tefter.py:691 Tefter.py:693
+msgid "Time"
+msgstr ""
+
+#: Tefter.py:326 Tefter.py:417 Tefter.py:608 Tefter.py:612 Tefter.py:618
+#: Tefter.py:623 Tefter.py:691 Tefter.py:693
+msgid "Title"
+msgstr ""
+
+#: Tefter.py:327 Tefter.py:608 Tefter.py:612 Tefter.py:618 Tefter.py:623
+#: Tefter.py:691 Tefter.py:693
+msgid "Details"
+msgstr ""
+
+#: Tefter.py:328 Tefter.py:691 Tefter.py:693
+msgid "Importance"
+msgstr ""
+
+#: Tefter.py:396 Tefter.py:397
+msgid "New appointment"
+msgstr ""
+
+#: Tefter.py:411
+msgid "Hour"
+msgstr ""
+
+#: Tefter.py:414
+msgid "Minutes"
+msgstr ""
+
+#: Tefter.py:420
+msgid "Appointment"
+msgstr ""
+
+#: Tefter.py:425
+msgid "How important is this appointment?"
+msgstr ""
+
+#: Tefter.py:428 Tefter.py:740
+msgid "Add"
+msgstr ""
+
+#: Tefter.py:431 Tefter.py:523 Tefter.py:745 Tefter.py:833
+msgid "Cancel"
+msgstr ""
+
+#: Tefter.py:483 Tefter.py:497
+msgid "Edit appointment"
+msgstr ""
+
+#: Tefter.py:485
+msgid "Edit day"
+msgstr ""
+
+#: Tefter.py:487
+msgid "Edit month"
+msgstr ""
+
+#: Tefter.py:489
+msgid "Edit year"
+msgstr ""
+
+#: Tefter.py:491
+msgid "Edit hour"
+msgstr ""
+
+#: Tefter.py:493
+msgid "Edit minutes"
+msgstr ""
+
+#: Tefter.py:495
+msgid "Edit title"
+msgstr ""
+
+#: Tefter.py:502
+msgid "Edit importance"
+msgstr ""
+
+#: Tefter.py:521 Tefter.py:828
+msgid "Save changes"
+msgstr ""
+
+#: Tefter.py:608 Tefter.py:612 Tefter.py:618 Tefter.py:623
+msgid "Date"
+msgstr ""
+
+#: Tefter.py:619
+msgid "Are you sure you want to delete these appointments?"
+msgstr ""
+
+#: Tefter.py:623
+msgid "Are you sure you want to delete this appointment?"
+msgstr ""
+
+#: Tefter.py:680
+msgid "Exported contacts"
+msgstr ""
+
+#: Tefter.py:696
+msgid "Exported appointments"
+msgstr ""
+
+#: Tefter.py:800
+msgid "New title"
+msgstr ""
+
+#: Tefter.py:807
+msgid "New phone"
+msgstr ""
+
+#: Tefter.py:814
+msgid "New email"
+msgstr ""
+
+#: Tefter.py:821
+msgid "New comments"
+msgstr ""
+
+#: Tefter.py:900
+msgid "Smart notebook"
+msgstr ""
