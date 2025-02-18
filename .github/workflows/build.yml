@@ -36,11 +36,11 @@ jobs:
         run: |
           pyinstaller --distpath ./Tefter --onefile --windowed --name Tefter --icon=icon.png --add-data "locale;locale" --add-data "sounds;sounds" --version-file version_info.txt --noconsole Tefter.py
 
-      - name: Copy additional files to dist
+      - name: Copy additional files to Tefter
         run: |
-          copy icon.png dist\
-          xcopy /E /I locale dist\locale
-          xcopy /E /I sounds dist\sounds
+          copy icon.png Tefter\
+          xcopy /E /I locale Tefter\locale
+          xcopy /E /I sounds Tefter\sounds
 
       - name: Create ZIP archive
         run: |
