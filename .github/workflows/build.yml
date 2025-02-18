@@ -44,7 +44,6 @@ jobs:
 
       - name: Create ZIP archive
         run: |
-          rename dist Tefter
           powershell Compress-Archive -Path Tefter\* -DestinationPath Tefter\Tefter_v${{ env.VERSION }}.zip
 
       - name: Upload ZIP artifact
