@@ -34,7 +34,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile --windowed --name Tefter --icon=icon.png --add-data "locale;locale" --add-data "sounds;sounds" --version-file version_info.txt --noconsole Tefter.py
+          pyinstaller --distpath ./Tefter --onefile --windowed --name Tefter --icon=icon.png --add-data "locale;locale" --add-data "sounds;sounds" --version-file version_info.txt --noconsole Tefter.py
 
       - name: Copy additional files to dist
         run: |
