@@ -7,15 +7,15 @@ A simple app to manage your contacts and appointments
 
 This is a work-in-progress app, and here are some of the planned and implemented features. 
 
--[x] Export of contacts 
--[ ] Import of contacts 
--[ ] Send email to selected contacts 
--[x] Export of appointments 
--[ ] Import of appointments 
--[ ] Export and import customizable templates 
--[x] Customizable app interface sounds 
--[ ] Better customization/choice of appointment importance sounds 
--[ ] ... :blush: 
+- [x] Export of contacts 
+- [ ] Import of contacts 
+- [ ] Send email to selected contacts 
+- [x] Export of appointments 
+- [ ] Import of appointments 
+- [ ] Export and import customizable templates 
+- [x] Customizable app interface sounds 
+- [ ] Better customization/choice of appointment importance sounds 
+- [ ] ... :blush: 
 
 
 ## Some notes 
